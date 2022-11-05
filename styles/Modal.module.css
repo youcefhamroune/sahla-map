@@ -1,0 +1,8 @@
+.backdrop {
+	@apply fixed top-0 left-0 z-50 flex h-full w-full bg-black/70;
+}
+
+.modal {
+	filter: drop-shadow(0 0 5px rgba(14, 165, 233, 0.3)) drop-shadow(0 0 3px rgba(14, 165, 233, 0.3)) drop-shadow(0 0 1px rgba(14, 165, 233, 0.3));
+	@apply z-40 m-auto flex h-[5/6] w-11/12 overflow-hidden rounded-lg border border-gray-700 bg-gray-800 bg-gradient-to-bl from-gray-800 via-gray-700/25 to-gray-900 md:h-2/3 md:w-1/2;
+}
